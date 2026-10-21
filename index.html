@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chăm sóc da mỗi ngày | Giao diện minh họa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="top-note">GIAO DIỆN MINH HỌA PHỤC VỤ BÀI TẬP HTML/CSS</div>
+    <div class="header-main">
+      <a class="brand" href="#" aria-label="Trang chủ">skin<span>day</span></a>
+      <div class="search" role="search">
+        <span aria-hidden="true">⌕</span>
+        <input type="search" placeholder="Tìm sản phẩm chăm sóc da..." aria-label="Tìm sản phẩm">
+      </div>
+      <button class="cart-button" type="button">Giỏ hàng <span>0</span></button>
+    </div>
+    <nav class="nav" aria-label="Danh mục chính">
+      <a href="#">Chăm sóc da</a>
+      <a href="#">Chống nắng</a>
+      <a href="#">Làm sạch</a>
+      <a href="#">Dưỡng ẩm</a>
+      <a href="#">Chăm sóc tóc</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">CHĂM DA THEO CÁCH CỦA BẠN</p>
+        <h1>Những lựa chọn<br><span>cho làn da khỏe</span></h1>
+        <p class="hero-copy">So sánh thông tin chính trong nháy mắt — chọn sản phẩm phù hợp với nhu cầu của bạn.</p>
+        <a class="hero-link" href="#products">Khám phá sản phẩm <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="bottle bottle-back"><span></span></div>
+        <div class="bottle bottle-front"><span></span></div>
+        <div class="leaf leaf-one"></div>
+        <div class="leaf leaf-two"></div>
+      </div>
+    </section>
+
+    <section class="section-heading" id="products">
+      <div>
+        <p class="eyebrow">GỢI Ý CHO BẠN</p>
+        <h2>Sản phẩm chăm sóc da</h2>
+        <p class="section-copy">Thông tin mẫu để minh họa cách trình bày thẻ sản phẩm.</p>
+      </div>
+      <button class="sort-button" type="button">Sắp xếp: Nổi bật <span aria-hidden="true">⌄</span></button>
+    </section>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <div class="product-visual visual-cleanser">
+          <span class="discount">-20%</span>
+          <span class="product-label">LÀM SẠCH</span>
+          <div class="pack pack-tube"><div class="pack-cap"></div><div class="pack-mark">daily<br>clean</div></div>
+          <span class="visual-number">01</span>
+        </div>
+        <div class="product-info">
+          <p class="category">SỮA RỬA MẶT</p>
+          <h3>Gel làm sạch dịu nhẹ Daily Clean</h3>
+          <div class="rating"><span>★★★★★</span> <small>4.8 · 126 đánh giá</small></div>
+          <div class="price-row"><strong>159.000₫</strong><del>199.000₫</del></div>
+          <p class="product-note">Dung tích minh họa: 150 ml</p>
+          <button class="add-button" type="button">Xem sản phẩm <span>↗</span></button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-visual visual-serum">
+          <span class="discount">-15%</span>
+          <span class="product-label">DƯỠNG DA</span>
+          <div class="pack pack-serum"><div class="dropper"></div><div class="serum-label">SERUM<br><b>HYDRATE</b></div></div>
+          <span class="visual-number">02</span>
+        </div>
+        <div class="product-info">
+          <p class="category">TINH CHẤT DƯỠNG</p>
+          <h3>Tinh chất cấp ẩm Hydrate Serum</h3>
+          <div class="rating"><span>★★★★★</span> <small>4.9 · 98 đánh giá</small></div>
+          <div class="price-row"><strong>289.000₫</strong><del>340.000₫</del></div>
+          <p class="product-note">Dung tích minh họa: 30 ml</p>
+          <button class="add-button" type="button">Xem sản phẩm <span>↗</span></button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-visual visual-sunscreen">
+          <span class="discount">BÁN CHẠY</span>
+          <span class="product-label">BẢO VỆ DA</span>
+          <div class="pack pack-sunscreen"><div class="sun-mark">☼</div><div class="sun-label">SUN<br><b>SHIELD</b></div><div class="pack-cap"></div></div>
+          <span class="visual-number">03</span>
+        </div>
+        <div class="product-info">
+          <p class="category">KEM CHỐNG NẮNG</p>
+          <h3>Kem chống nắng Sun Shield SPF 50</h3>
+          <div class="rating"><span>★★★★★</span> <small>4.7 · 214 đánh giá</small></div>
+          <div class="price-row"><strong>249.000₫</strong><del>—</del></div>
+          <p class="product-note">Dung tích minh họa: 50 ml</p>
+          <button class="add-button" type="button">Xem sản phẩm <span>↗</span></button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-visual visual-moisturizer">
+          <span class="discount">-10%</span>
+          <span class="product-label">DƯỠNG ẨM</span>
+          <div class="pack pack-jar"><div class="jar-lid"></div><div class="jar-body"><span>SOFT<br><b>CREAM</b></span></div></div>
+          <span class="visual-number">04</span>
+        </div>
+        <div class="product-info">
+          <p class="category">KEM DƯỠNG ẨM</p>
+          <h3>Kem dưỡng ẩm Soft Cream</h3>
+          <div class="rating"><span>★★★★★</span> <small>4.8 · 73 đánh giá</small></div>
+          <div class="price-row"><strong>225.000₫</strong><del>250.000₫</del></div>
+          <p class="product-note">Khối lượng minh họa: 50 g</p>
+          <button class="add-button" type="button">Xem sản phẩm <span>↗</span></button>
+        </div>
+      </article>
+    </div>
+
+    <aside class="design-note">
+      <span class="note-icon">✳</span>
+      <div><strong>Thiết kế tập trung vào thông tin quan trọng</strong><p>Giá bán, giá gốc, nhãn ưu đãi và đánh giá được đặt gần nhau để người dùng dễ so sánh trước khi lựa chọn.</p></div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <span>SKINDAY — Giao diện học tập minh họa</span>
+    <span>Không phải website bán hàng thật · Không xử lý đơn hàng</span>
+  </footer>
+</body>
+</html>
